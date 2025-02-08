@@ -1,1 +1,18 @@
 
+# Organizing the information using a dictionary of dictionaries
+team_members = {
+    'CG': {'Slack Username': 'CG', 'Email': 'charisobakpolo@gmail.com', 'Hobby': 'Music', 'Country': 'Nigeria', 'Discipline': 'Physiology', 'Preferred Programming Language': 'Python'},
+    'TOIBUKUN': {'Slack Username': 'toibukun', 'Email': 'ogunoyeblessingtoyosi@gmail.com', 'Hobby': 'Sunset Photography', 'Country': 'Nigeria', 'Discipline': 'Medicine and Surgery', 'Preferred Programming Language': 'Python'},
+    'Fatemah': {'Slack Username': 'Fatemah Alsolaiman', 'Email': 'fatemah.solaiman@gmail.com', 'Hobby': 'Reading', 'Country': 'Saudi Arabia', 'Discipline': 'Biology', 'Preferred Programming Language': 'Python'},
+    'Funmilayo': {'Slack Username': 'Funmilayo', 'Email': 'ligalifunmilayo@gmail.com', 'Hobby': 'Cooking', 'Country': 'Nigeria', 'Discipline': 'Biochemistry', 'Preferred Programming Language': 'Python'}
+}
+
+# Saving the formatted strings to variables
+CG_info = f"Name: Obakpolo Charis-Grace, Slack Username: {team_members['CG']['Slack Username']}, Email: {team_members['CG']['Email']}, Hobby: {team_members['CG']['Hobby']}, Country: {team_members['CG']['Country']}, Discipline: {team_members['CG']['Discipline']}, Preferred Programming Language: {team_members['CG']['Preferred Programming Language']}"
+TOIBUKUN_info = f"Name: Ogunoye Blessing, Slack Username: {team_members['TOIBUKUN']['Slack Username']}, Email: {team_members['TOIBUKUN']['Email']}, Hobby: {team_members['TOIBUKUN']['Hobby']}, Country: {team_members['TOIBUKUN']['Country']}, Discipline: {team_members['TOIBUKUN']['Discipline']}, Preferred Programming Language: {team_members['TOIBUKUN']['Preferred Programming Language']}"
+Fatemah_info = f"Name: Fatemah Alsolaiman, Slack Username: {team_members['Fatemah']['Slack Username']}, Email: {team_members['Fatemah']['Email']}, Hobby: {team_members['Fatemah']['Hobby']}, Country: {team_members['Fatemah']['Country']}, Discipline: {team_members['Fatemah']['Discipline']}, Preferred Programming Language: {team_members['Fatemah']['Preferred Programming Language']}"
+Funmilayo_info = f"Name: Funmilayo Ligali, Slack Username: {team_members['Funmilayo']['Slack Username']}, Email: {team_members['Funmilayo']['Email']}, Hobby: {team_members['Funmilayo']['Hobby']}, Country: {team_members['Funmilayo']['Country']}, Discipline: {team_members['Funmilayo']['Discipline']}, Preferred Programming Language: {team_members['Funmilayo']['Preferred Programming Language']}"
+
+# Merging into one print function
+print(f"Team Members Information:\n{CG_info}\n{TOIBUKUN_info}\n{Fatemah_info}\n{Funmilayo_info}")
+
